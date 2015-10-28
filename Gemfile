@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'blacklight'
+gem 'geoblacklight'
+gem 'jettywrapper'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
@@ -45,3 +49,6 @@ group :development do
   gem 'spring'
 end
 
+gem 'rsolr', '~> 1.0.6'
+gem 'devise'
+gem 'devise-guests', '~> 0.3'
